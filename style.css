@@ -1,0 +1,140 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+/* Container Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Contact Form Styles */
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #e14e2a;
+}
+
+/* Home Page */
+.home-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.home-section h1 {
+    font-size: 3em;
+}
+
+.home-section p {
+    font-size: 1.2em;
+}
+
+/* Menu Card Styles */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    border-radius: 8px;
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Button Styles */
+.btn-primary, .btn-success {
+    background-color: #ff5733;
+    border-color: #ff5733;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    background-color: #e14e2a;
+    border-color: #e14e2a;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    .home-section h1 {
+        font-size: 2em;
+    }
+
+    .home-section p {
+        font-size: 1.1em;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
